@@ -67,7 +67,7 @@ describe('Records', () => {
                     expect(res.body.code).to.be.equal(1);
                     expect(res.body.msg).to.be.equal('Invalid request');
                     expect(res.body.errors).to.be.an('array');
-                    expect(res.body.errors[0]).to.be.equal('Invalid Start Date')
+                    expect(res.body.errors[0]).to.be.equal("Start Date Format should be 'YYYY-MM-DD'")
                 });
         });
 
