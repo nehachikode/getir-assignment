@@ -68,6 +68,6 @@ TEST_URI = 'Insert test URI'
 
 2. Install packages ``` npm install ```
 
-3. Run using Nodemon ``` npm start-dev ```
+3. Run using Nodemon ``` npm run start-dev ```
 
 4. Run test cases ``` npm run test ```
