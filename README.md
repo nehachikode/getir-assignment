@@ -8,7 +8,7 @@ This application is build with Node.js and MongoDB. The endpoint fetches the rec
 
 ## Endpoints
 ```
-localhost:3000/records/fetch
+https://getir-assignment-prod.herokuapp.com/records/fetch
 ```
 
 ## Installation
