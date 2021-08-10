@@ -60,7 +60,11 @@ localhost:3000/records/fetch
 ```
 
 ## To run application in local
-1. Create .env file
+1. Create .env file 
+``` 
+PROD_URI = 'Insert Production URI'
+TEST_URI = 'Insert test URI' 
+```
 
 2. Install packages ``` npm install ```
 
