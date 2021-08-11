@@ -15,7 +15,7 @@ app.use(express.urlencoded({ extended: false }));
 // database connection
 dbConnect();
 
-require('./lib/Router')(app);
+require('./lib/router')(app);
 
 app.get('/', (req, res) => {
   res.send(`<h2>Welcome!!!</h2>`)
